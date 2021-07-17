@@ -5,6 +5,7 @@ import store from './store/index.js';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import vueScrollTrigger from 'vue-scroll-trigger'
 Vue.use(BootstrapVue);
 
 // sidemenu를 위한 설정
@@ -34,4 +35,5 @@ new Vue({
 	vuetify,
 	sidemenu,
 	VueSidebarMenu,
+	vueScrollTrigger
 }).$mount('#app');

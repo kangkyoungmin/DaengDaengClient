@@ -11,22 +11,21 @@ import { setInterceptors } from './common/interceptor';
 // }
 // const instance = createInstance();
 
-const instance = axios.create({
-	baseURL:"http://localhost:8080/",
-	headers:{
-		// cors로 인해 주석 처리 
-		// Authorization : store.state.auth.token,
-	}
-})
+// const instance = axios.create({
+// 	baseURL:"http://localhost:8080/",
+// 	headers:{
+// 		// cors로 인해 주석 처리 
+// 		// Authorization : store.state.auth.token,
+// 	}
+// })
 
 function loginUser(userData) {
-	// const url = 'http://localhost:3080/login';
-	return instance.post('login', userData);
+	const url = 'http://localhost:3005/login';
+	return axios.post(url, userData);
 }
 function registerUser(userData) {
-	// const url = 'http://localhost:3080/user';
-
-	return instance.post('user', userData);
+	const url = 'http://localhost:3005/user';
+	return axios.post(url, userData);
 }
 export { loginUser, registerUser };
 // axios의 api 함수 구조화
@@ -48,11 +47,13 @@ function createInstanceWithAuth2(url) {
 function createInstanceWithAuth3(url) {
 	const instance = axios.create({
 		// baseURL: `${process.env.VUE_APP_API_URL}api/${url}`,
-		baseURL:`http://localhost:3004/${url}`
+		baseURL:`http://localhost:3009/${url}`
 	});
 	return setInterceptors(instance);
 }
 export const goods = createInstanceWithAuth('goods');
+export const user = createInstanceWithAuth('user');
+
 // 추후 리팩토링이 필요함(goods->items)
 export const items = createInstanceWithAuth2('items');
 export const wish= createInstanceWithAuth2('wish');

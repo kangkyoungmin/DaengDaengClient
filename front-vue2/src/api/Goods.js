@@ -1,5 +1,6 @@
 import { goods } from './index.js';
 import { items } from './index.js';
+import { user } from './index.js'
 
 function InsertGoods(goodsData) {
   return goods.post('/', goodsData);
@@ -16,6 +17,11 @@ function deleteGoods(reqID) {
 function getGoodsList(limit) {
   return goods.get(`/?_limit=${limit}`);
 } 
+
+
+function getUserInfo(id){
+	return user.get(`/?id=${id}`)
+}
 
 // api 문서에 detail이라는 작명에 맞게 함수명 getGoodsDetail로 설정
 function getGoodsDetail(goodsID){
@@ -42,4 +48,5 @@ export{
 	getGoodsDetail,
 	getGoodsSearch,
 	getGoodsCategory,
+	getUserInfo,
 };

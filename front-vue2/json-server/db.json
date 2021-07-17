@@ -1,369 +1,409 @@
 {
-    "page":[],
-    "user":[
-        {
-            "id" : 1,
-            "big_category" : "BIG",
-            "email" : "jsp@naver.com",
-            "gu" : "GURO", 
-            "image_path" : "https://www.naver.com",
-            "nickname" : "jsp",
-            "password" : "1234"
-        },
-        {
-            "id" : 2,
-            "big_category" : "MID",
-            "email" : "test@naver.com",
-            "gu" : "YOUNGSAN", 
-            "image_path" : "https://www.google.com",
-            "nickname" : "test",
-            "password" : "1234"        
-        }
-    ],
-    "goods":[ 
-        {
-            "id": 1,
-            "name": "강아지도 쓸 수 있는 집",
-            "price": 20000,
-            "wanted_location": "삼성1동",
-            "created_at":"2021-07-03 오후 3:56",
-            "path": "../../public/../img/shop/products/01.jpg",
-            "big_category":"1",
-            "mid_category":"1",
-            "item_status":"1",
-            "seller_id":"1"
-        },
-        {
-            "id": 2,
-            "name": "목줄",
-            "price": 30000,
-            "wanted_location": "삼성2동",
-            "created_at":"2021-07-03 오후 3:57",
-            "path": "../../public/../img/shop/products/02.jpg",
-            "description" : "귀여운 강아지 옷 팝니다. 강아지가 얼마 전에 사고를 당했는데 정리하려고 싼 값에 올립니다.",
-            "big_category":"1",
-            "mid_category":"2",
-            "item_status":"0",
-            "seller_id":"1"
-        },
-        {
-            "id": 3,
-            "name": "급수급식대",
-            "price": 40000,
-            "wanted_location": "압구정동",
-            "created_at":"2021-07-03 오후 3:58",
-            "path": "../../public/../img/shop/products/03.jpg",
-            "big_category":"3",
-            "mid_category":"2",
-            "item_status":"0",
-            "seller_id":"2"
-        },
-        {
-            "id": 4,
-            "name": "이동장 팔아요",
-            "price": 50000,
-            "wanted_location": "신사동",
-            "created_at":"2021-07-03 오후 3:59",
-            "path": "../../public/../img/shop/products/04.jpg",
-            "big_category":"2",
-            "mid_category":"3",
-            "item_status":"0",
-            "seller_id":"1"
-        },
-        {
-            "id": 5,
-            "name": "소독 스프레이",
-            "price": 60000,
-            "wanted_location": "대치동",
-            "created_at":"2021-07-03 오후 4:00",
-            "path": "../../public/../img/shop/products/05.jpg",
-            "big_category":"1",
-            "mid_category":"1",
-            "item_status":"1",
-            "seller_id":"1"
-        },
-        {
-            "id": 6,
-            "name": "빨간 지붕 개집",
-            "price": 70000,
-            "wanted_location": "도곡1동",
-            "created_at":"2021-07-03 오후 4:01",
-            "path": "../../public/../img/shop/products/06.jpg",
-            "big_category":"2",
-            "mid_category":"5",
-            "item_status":"1",
-            "seller_id":"1"
-        },
-        {
-            "id": 7,
-            "name": "귀여운 과일 옷",
-            "price": 5000,
-            "wanted_location": "역삼1동",
-            "created_at":"2021-07-03 오후 4:02",
-            "path": "../../public/../img/shop/products/07.jpg",
-            "big_category":"2",
-            "mid_category":"6",
-            "item_status":"0",
-            "seller_id":"1"
-        },
-        {
-            "id": 8,
-            "name": "1980 청바지",
-            "price": 15800,
-            "wanted_location": "역삼2동",
-            "created_at":"2021-07-03 오후 4:03",
-            "path": "../../public/../img/shop/products/08.jpg",
-            "big_category":"2",
-            "mid_category":"1",
-            "item_status":"0",
-            "seller_id":"1"
-        },
-        {
-            "id": 9,
-            "name": "장난감 3개 팔아요",
-            "price": 20000,
-            "wanted_location": "개포2동",
-            "created_at":"2021-07-03 오후 4:04",
-            "path": "../../public/../img/shop/products/09.jpg",
-            "big_category":"2",
-            "mid_category":"4",
-            "item_status":"1",
-            "seller_id":"3"
-        },
-        {
-            "id": 10,
-            "name": "검정 하네스",
-            "price": 5000,
-            "wanted_location": "개포1동",
-            "created_at":"2021-07-03 오후 4:05",
-            "path": "../../public/../img/shop/products/10.jpg",
-            "big_category":"1",
-            "mid_category":"5",
-            "item_status":"1",
-            "seller_id":"3"
-        },
-        {
-            "id": 11,
-            "name": "옷 같은 하네스",
-            "price": 45000,
-            "wanted_location": "잠실2동",
-            "created_at":"2021-07-03 오후 4:06",
-            "path": "../../public/../img/shop/products/11.jpg",
-            "big_category":"3",
-            "mid_category":"3",
-            "item_status":"0",
-            "seller_id":"3"
-        },
-        {
-            "id": 12,
-            "name": "샤워기 거치대",
-            "price": 9900,
-            "wanted_location": "잠실1동",
-            "created_at":"2021-07-03 오후 4:07",
-            "path": "../../public/../img/shop/products/12.jpg",
-            "big_category":"1",
-            "mid_category":"1",
-            "item_status":"0",
-            "seller_id":"2"
-        },
-        {
-            "id": 13,
-            "name": "강아지도 쓸 수 있는 집",
-            "price": 20000,
-            "wanted_location": "삼성1동",
-            "created_at":"2021-07-03 오후 4:08",
-            "path": "../../public/../img/shop/products/01.jpg",
-            "big_category":"1",
-            "mid_category":"1",
-            "item_status":"1",
-            "seller_id":"1"
-        },
-        {
-            "id": 14,
-            "name": "목줄",
-            "price": 30000,
-            "wanted_location": "삼성2동",
-            "created_at":"2021-07-03 오후 4:09",
-            "path": "../../public/../img/shop/products/02.jpg",
-            "big_category":"1",
-            "mid_category":"2",
-            "item_status":"0",
-            "seller_id":"2"
-        },
-        {
-            "id": 15,
-            "name": "급수급식대",
-            "price": 40000,
-            "wanted_location": "압구정동",
-            "created_at":"2021-07-03 오후 4:10",
-            "path": "../../public/../img/shop/products/03.jpg",
-            "big_category":"3",
-            "mid_category":"2",
-            "item_status":"0",
-            "seller_id":"17"
-        },
-        {
-            "id": 16,
-            "name": "이동장 팔아요",
-            "price": 50000,
-            "wanted_location": "신사동",
-            "created_at":"2021-07-03 오후 4:11",
-            "path": "../../public/../img/shop/products/04.jpg",
-            "big_category":"2",
-            "mid_category":"3",
-            "item_status":"1",
-            "seller_id":"11"
-        },
-        {
-            "id": 17,
-            "name": "소독 스프레이",
-            "price": 60000,
-            "wanted_location": "대치동",
-            "created_at":"2021-07-03 오후 4:12",
-            "path": "../../public/../img/shop/products/05.jpg",
-            "big_category":"1",
-            "mid_category":"1",
-            "item_status":"1",
-            "seller_id":"9"
-        },
-        {
-            "id": 18,
-            "name": "빨간 지붕 개집",
-            "price": 70000,
-            "wanted_location": "도곡1동",
-            "created_at":"2021-07-03 오후 4:13",
-            "path": "../../public/../img/shop/products/06.jpg",
-            "big_category":"2",
-            "mid_category":"5",
-            "item_status":"0",
-            "seller_id":"10"
-        },
-        {
-            "id": 19,
-            "name": "귀여운 과일 옷",
-            "price": 5000,
-            "wanted_location": "역삼1동",
-            "created_at":"2021-07-03 오후 4:14",
-            "path": "../../public/../img/shop/products/07.jpg",
-            "big_category":"2",
-            "mid_category":"6",
-            "item_status":"0",
-            "seller_id":"5"
-        },
-        {
-            "id": 20,
-            "name": "1980 청바지",
-            "price": 15800,
-            "wanted_location": "역삼2동",
-            "created_at":"2021-07-03 오후 4:15",
-            "path": "../../public/../img/shop/products/08.jpg",
-            "big_category":"2",
-            "mid_category":"1",
-            "item_status":"0",
-            "seller_id":"8"
-        },
-        {
-            "id": 21,
-            "name": "장난감 3개 팔아요",
-            "price": 20000,
-            "wanted_location": "개포2동",
-            "created_at":"2021-07-03 오후 4:16",
-            "path": "../../public/../img/shop/products/09.jpg",
-            "big_category":"2",
-            "mid_category":"4",
-            "item_status":"1",
-            "seller_id":"21"
-        },
-        {
-            "id": 22,
-            "name": "검정 하네스",
-            "price": 5000,
-            "wanted_location": "개포1동",
-            "created_at":"2021-07-03 오후 4:17",
-            "path": "../../public/../img/shop/products/10.jpg",
-            "big_category":"1",
-            "mid_category":"5",
-            "item_status":"1",
-            "seller_id":"22"
-        },
-        {
-            "id": 23,
-            "name": "옷 같은 하네스",
-            "price": 45000,
-            "wanted_location": "잠실2동",
-            "created_at":"2021-07-03 오후 4:18",
-            "path": "../../public/../img/shop/products/11.jpg",
-            "big_category":"3",
-            "mid_category":"3",
-            "item_status":"0",
-            "seller_id":"23"
-        },
-        {
-            "id": 24,
-            "name": "샤워기 거치대",
-            "price": 9900,
-            "wanted_location": "잠실1동",
-            "created_at":"2021-07-03 오후 4:19",
-            "path": "../../public/../img/shop/products/12.jpg",
-            "big_category":"1",
-            "mid_category":"1",
-            "item_status":"0",
-            "seller_id":"24"
-        }
-    ],
-    "notice": [ 
-        {
-            "id": 1,
-            "title": "신고하기 전 주의사항1",
-            "content": "1. 부적절한 신고는 제재를 받으실 수 있습니다.",
-            "created_at": "2021-06-01 10:14" 
-        },
-        {
-            "id": 2,
-            "title": "신고하기 전 주의사항2",
-            "content": "2. 부적절한 신고는 제재를 받으실 수 있습니다.",
-            "created_at": "2021-06-02 10:14" 
-        },
-        {
-            "id": 3,
-            "title": "신고하기 전 주의사항3",
-            "content": "3. 부적절한 신고는 제재를 받으실 수 있습니다.",
-            "created_at": "2021-06-03 10:14" 
-        },
-        {
-            "id": 4,
-            "title": "신고하기 전 주의사항4",
-            "content": "4. 부적절한 신고는 제재를 받으실 수 있습니다.",
-            "created_at": "2021-06-04 10:14" 
-        },
-        {
-            "id": 5,
-            "title": "신고하기 전 주의사항",
-            "content": "5. 부적절한 신고는 제재를 받으실 수 있습니다.",
-            "created_at": "2021-06-05 10:14" 
-        }
-    ],
-    "image":[
-        {
-            "id":1,
-            "item_image_id":1,
-            "path":"@/assets/img/shop/single/01.jpg",
-            "orders":1
-        },
-        {
-            "id":2,
-            "path":"@/assets/img/shop/single/04.jpg",
-            "orders":2
-        },
-        {
-            "id":3,
-            "path":"@/assets/img/shop/single/03.jpg",
-            "orders":2
-        },
-        {
-            "id":4,
-            "path":"@/assets/img/shop/single/04.jpg",
-            "orders":2
-        }
-    ]
+  "page": [],
+  "user": [
+    {
+      "id": 0,
+      "big_category": "BIG",
+      "email": "jsp@naver.com",
+      "si": "서울",
+      "gu": "GURO",
+      "image_path": "https://www.naver.com",
+      "nickname": "jsp",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "big_category": "MID",
+      "email": "test@naver.com",
+      "gu": "YOUNGSAN",
+      "si": "서울",
+      "image_path": "https://www.google.com",
+      "nickname": "test",
+      "password": "1234"
+    },
+    {
+      "username": "dfkjd@naver.com",
+      "password": "1234",
+      "nickname": "atrst",
+      "id": 3
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "name": "강아지도 쓸 수 있는 집",
+      "price": 20000,
+      "wanted_location": "삼성1동",
+      "created_at": "2021-07-03 오후 3:56",
+      "path": "../../public/../img/shop/products/01.jpg",
+      "big_category": "1",
+      "mid_category": "1",
+      "item_status": "1",
+      "seller_id": "1"
+    },
+    {
+      "id": 2,
+      "name": "목줄",
+      "price": 30000,
+      "wanted_location": "삼성2동",
+      "created_at": "2021-07-03 오후 3:57",
+      "path": "../../public/../img/shop/products/02.jpg",
+      "description": "귀여운 강아지 옷 팝니다. 강아지가 얼마 전에 사고를 당했는데 정리하려고 싼 값에 올립니다.",
+      "big_category": "1",
+      "mid_category": "2",
+      "item_status": "0",
+      "seller_id": "1"
+    },
+    {
+      "id": 3,
+      "name": "급수급식대",
+      "price": 40000,
+      "wanted_location": "압구정동",
+      "created_at": "2021-07-03 오후 3:58",
+      "path": "../../public/../img/shop/products/03.jpg",
+      "big_category": "3",
+      "mid_category": "2",
+      "item_status": "0",
+      "seller_id": "2"
+    },
+    {
+      "id": 4,
+      "name": "이동장 팔아요",
+      "price": 50000,
+      "wanted_location": "신사동",
+      "created_at": "2021-07-03 오후 3:59",
+      "path": "../../public/../img/shop/products/04.jpg",
+      "big_category": "2",
+      "mid_category": "3",
+      "item_status": "0",
+      "seller_id": "1"
+    },
+    {
+      "id": 5,
+      "name": "소독 스프레이",
+      "price": 60000,
+      "wanted_location": "대치동",
+      "created_at": "2021-07-03 오후 4:00",
+      "path": "../../public/../img/shop/products/05.jpg",
+      "big_category": "1",
+      "mid_category": "1",
+      "item_status": "1",
+      "seller_id": "1"
+    },
+    {
+      "id": 6,
+      "name": "빨간 지붕 개집",
+      "price": 70000,
+      "wanted_location": "도곡1동",
+      "created_at": "2021-07-03 오후 4:01",
+      "path": "../../public/../img/shop/products/06.jpg",
+      "big_category": "2",
+      "mid_category": "5",
+      "item_status": "1",
+      "seller_id": "1"
+    },
+    {
+      "id": 7,
+      "name": "귀여운 과일 옷",
+      "price": 5000,
+      "wanted_location": "역삼1동",
+      "created_at": "2021-07-03 오후 4:02",
+      "path": "../../public/../img/shop/products/07.jpg",
+      "big_category": "2",
+      "mid_category": "6",
+      "item_status": "0",
+      "seller_id": "1"
+    },
+    {
+      "id": 8,
+      "name": "1980 청바지",
+      "price": 15800,
+      "wanted_location": "역삼2동",
+      "created_at": "2021-07-03 오후 4:03",
+      "path": "../../public/../img/shop/products/08.jpg",
+      "big_category": "2",
+      "mid_category": "1",
+      "item_status": "0",
+      "seller_id": "1"
+    },
+    {
+      "id": 9,
+      "name": "장난감 3개 팔아요",
+      "price": 20000,
+      "wanted_location": "개포2동",
+      "created_at": "2021-07-03 오후 4:04",
+      "path": "../../public/../img/shop/products/09.jpg",
+      "big_category": "2",
+      "mid_category": "4",
+      "item_status": "1",
+      "seller_id": "3"
+    },
+    {
+      "id": 10,
+      "name": "검정 하네스",
+      "price": 5000,
+      "wanted_location": "개포1동",
+      "created_at": "2021-07-03 오후 4:05",
+      "path": "../../public/../img/shop/products/10.jpg",
+      "big_category": "1",
+      "mid_category": "5",
+      "item_status": "1",
+      "seller_id": "3"
+    },
+    {
+      "id": 11,
+      "name": "옷 같은 하네스",
+      "price": 45000,
+      "wanted_location": "잠실2동",
+      "created_at": "2021-07-03 오후 4:06",
+      "path": "../../public/../img/shop/products/11.jpg",
+      "big_category": "3",
+      "mid_category": "3",
+      "item_status": "0",
+      "seller_id": "3"
+    },
+    {
+      "id": 12,
+      "name": "샤워기 거치대",
+      "price": 9900,
+      "wanted_location": "잠실1동",
+      "created_at": "2021-07-03 오후 4:07",
+      "path": "../../public/../img/shop/products/12.jpg",
+      "big_category": "1",
+      "mid_category": "1",
+      "item_status": "0",
+      "seller_id": "2"
+    },
+    {
+      "id": 13,
+      "name": "강아지도 쓸 수 있는 집",
+      "price": 20000,
+      "wanted_location": "삼성1동",
+      "created_at": "2021-07-03 오후 4:08",
+      "path": "../../public/../img/shop/products/01.jpg",
+      "big_category": "1",
+      "mid_category": "1",
+      "item_status": "1",
+      "seller_id": "1"
+    },
+    {
+      "id": 14,
+      "name": "목줄",
+      "price": 30000,
+      "wanted_location": "삼성2동",
+      "created_at": "2021-07-03 오후 4:09",
+      "path": "../../public/../img/shop/products/02.jpg",
+      "big_category": "1",
+      "mid_category": "2",
+      "item_status": "0",
+      "seller_id": "2"
+    },
+    {
+      "id": 15,
+      "name": "급수급식대",
+      "price": 40000,
+      "wanted_location": "압구정동",
+      "created_at": "2021-07-03 오후 4:10",
+      "path": "../../public/../img/shop/products/03.jpg",
+      "big_category": "3",
+      "mid_category": "2",
+      "item_status": "0",
+      "seller_id": "17"
+    },
+    {
+      "id": 16,
+      "name": "이동장 팔아요",
+      "price": 50000,
+      "wanted_location": "신사동",
+      "created_at": "2021-07-03 오후 4:11",
+      "path": "../../public/../img/shop/products/04.jpg",
+      "big_category": "2",
+      "mid_category": "3",
+      "item_status": "1",
+      "seller_id": "11"
+    },
+    {
+      "id": 17,
+      "name": "소독 스프레이",
+      "price": 60000,
+      "wanted_location": "대치동",
+      "created_at": "2021-07-03 오후 4:12",
+      "path": "../../public/../img/shop/products/05.jpg",
+      "big_category": "1",
+      "mid_category": "1",
+      "item_status": "1",
+      "seller_id": "9"
+    },
+    {
+      "id": 18,
+      "name": "빨간 지붕 개집",
+      "price": 70000,
+      "wanted_location": "도곡1동",
+      "created_at": "2021-07-03 오후 4:13",
+      "path": "../../public/../img/shop/products/06.jpg",
+      "big_category": "2",
+      "mid_category": "5",
+      "item_status": "0",
+      "seller_id": "10"
+    },
+    {
+      "id": 19,
+      "name": "귀여운 과일 옷",
+      "price": 5000,
+      "wanted_location": "역삼1동",
+      "created_at": "2021-07-03 오후 4:14",
+      "path": "../../public/../img/shop/products/07.jpg",
+      "big_category": "2",
+      "mid_category": "6",
+      "item_status": "0",
+      "seller_id": "5"
+    },
+    {
+      "id": 20,
+      "name": "1980 청바지",
+      "price": 15800,
+      "wanted_location": "역삼2동",
+      "created_at": "2021-07-03 오후 4:15",
+      "path": "../../public/../img/shop/products/08.jpg",
+      "big_category": "2",
+      "mid_category": "1",
+      "item_status": "0",
+      "seller_id": "8"
+    },
+    {
+      "id": 21,
+      "name": "장난감 3개 팔아요",
+      "price": 20000,
+      "wanted_location": "개포2동",
+      "created_at": "2021-07-03 오후 4:16",
+      "path": "../../public/../img/shop/products/09.jpg",
+      "big_category": "2",
+      "mid_category": "4",
+      "item_status": "1",
+      "seller_id": "21"
+    },
+    {
+      "id": 22,
+      "name": "검정 하네스",
+      "price": 5000,
+      "wanted_location": "개포1동",
+      "created_at": "2021-07-03 오후 4:17",
+      "path": "../../public/../img/shop/products/10.jpg",
+      "big_category": "1",
+      "mid_category": "5",
+      "item_status": "1",
+      "seller_id": "22"
+    },
+    {
+      "id": 23,
+      "name": "옷 같은 하네스",
+      "price": 45000,
+      "wanted_location": "잠실2동",
+      "created_at": "2021-07-03 오후 4:18",
+      "path": "../../public/../img/shop/products/11.jpg",
+      "big_category": "3",
+      "mid_category": "3",
+      "item_status": "0",
+      "seller_id": "23"
+    },
+    {
+      "id": 24,
+      "name": "샤워기 거치대",
+      "price": 9900,
+      "wanted_location": "잠실1동",
+      "created_at": "2021-07-03 오후 4:19",
+      "path": "../../public/../img/shop/products/12.jpg",
+      "big_category": "1",
+      "mid_category": "1",
+      "item_status": "0",
+      "seller_id": "24"
+    },
+    {
+      "item_id": 384,
+      "category_mid_id": "사료",
+      "title": "ㅁㄴㅇㄹㄴㅇ",
+      "price": "3232",
+      "description": "ㄴㅇㄴ",
+      "hit": 0,
+      "nego_status": "no",
+      "created_at": "2021-07-17T11:23:19.488Z",
+      "item_status": "no",
+      "updated_at": 0,
+      "buyer_id": 0,
+      "id": 25
+    }
+  ],
+  "notice": [
+    {
+      "id": 1,
+      "title": "신고하기 전 주의사항1",
+      "content": "1. 부적절한 신고는 제재를 받으실 수 있습니다.",
+      "created_at": "2021-06-01 10:14"
+    },
+    {
+      "id": 2,
+      "title": "신고하기 전 주의사항2",
+      "content": "2. 부적절한 신고는 제재를 받으실 수 있습니다.",
+      "created_at": "2021-06-02 10:14"
+    },
+    {
+      "id": 3,
+      "title": "신고하기 전 주의사항3",
+      "content": "3. 부적절한 신고는 제재를 받으실 수 있습니다.",
+      "created_at": "2021-06-03 10:14"
+    },
+    {
+      "id": 4,
+      "title": "신고하기 전 주의사항4",
+      "content": "4. 부적절한 신고는 제재를 받으실 수 있습니다.",
+      "created_at": "2021-06-04 10:14"
+    },
+    {
+      "id": 5,
+      "title": "신고하기 전 주의사항",
+      "content": "5. 부적절한 신고는 제재를 받으실 수 있습니다.",
+      "created_at": "2021-06-05 10:14"
+    }
+  ],
+  "image": [
+    {
+      "id": 1,
+      "item_image_id": 1,
+      "path": "@/assets/img/shop/single/01.jpg",
+      "orders": 1
+    },
+    {
+      "id": 2,
+      "path": "@/assets/img/shop/single/04.jpg",
+      "orders": 2
+    },
+    {
+      "id": 3,
+      "path": "@/assets/img/shop/single/03.jpg",
+      "orders": 2
+    },
+    {
+      "id": 4,
+      "path": "@/assets/img/shop/single/04.jpg",
+      "orders": 2
+    }
+  ],
+  "item": [
+    {
+      "item_id": 0,
+      "category_mid_id": 1,
+      "title": "헬로우",
+      "price": "2",
+      "description": "귀여운 강아지 옷 팝니다. 강아지가 얼마 전에 사고를 당했는데 정리하려고 싼 값에 올립니다.",
+      "hit": "2",
+      "nego_status": "ok",
+      "created_at": "12시 30분",
+      "seller_id": "2",
+      "item_status": "ok",
+      "updated_at": "12시 30분",
+      "buyer_id": "1",
+      "si": "서울",
+      "gu": "종로"
+    }
+  ]
 }
